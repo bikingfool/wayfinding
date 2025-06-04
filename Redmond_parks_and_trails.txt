@@ -30,9 +30,8 @@ overlay^name=Parks outline^url=https://maps.redmond.gov/server/rest/services/Web
 // Parks label (9)
 overlay^name=Parks label^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=9^dynamicLayers=[{"ID":9,"source":{"type":"mapLayer","mapLayerId":9},"drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[0,0,0,0],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0}}},"showLabels":true,"labelingInfo":[{"labelPlacement":"esriServerPolygonPlacementAlwaysHorizontal","labelExpression":"[ParkName]","useCodedValues":false,"symbol":{"type":"esriTS","color":[0,0,0,255],"backgroundColor":[0,0,0,0],"borderLineSize":0,"borderLineColor":[0,0,0,0],"haloSize":1.5,"haloColor":[255,255,0,255],"verticalAlignment":"bottom","horizontalAlignment":"center","rightToLeft":false,"angle":0,"xoffset":0,"yoffset":0,"kerning":true,"font":{"family":"Arial","size":10,"style":"normal","weight":"bold","decoration":"none"}}}]}}]
 
-// Trails (9)
+// Trails (2)
 overlay^name=Trails^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=2^dynamicLayers=[{"ID":2,"source":{"type":"mapLayer","mapLayerId":2},"definitionExpression":"d_TrailStatus='EXD'","drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSLS","style":"esriSLSSolid","color":[150,150,150,255],"width":2}}}}]
 
-// Bicycle routes
-// Trails (9)
-overlay^name=BikeRoutes^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=4^dynamicLayers=[{"ID":4,"source":{"type":"mapLayer","mapLayerId":4},"definitionExpression":"d_TrailStatus='EXD'","drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSLS","style":"esriSLSSolid","color":[150,150,150,255],"width":2}}}}]
+// Bike Routes (4)
+overlay^name=BikeRoutes^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=4^dynamicLayers=[{"ID":4,"source":{"type":"mapLayer","mapLayerId":4},"definitionExpression":"d_TrailStatus='EXD'","drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSLS","style":"esriSLSSolid","color":[0,255,255,255],"width":1}}}}]
