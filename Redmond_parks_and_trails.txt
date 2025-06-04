@@ -1,6 +1,7 @@
 // Redmond WA parks and trails
 
 // This file produced by:         Joseph Elfelt
+// Modified by                    Stuart Hargreaves
 // Contact information:           https://mappingsupport.com/p2/gissurfer_contact.html
 
 // Link to display the GIS data described in this file:  https://mappingsupport.com/p2/gissurfer.php?center=47.672035,-122.128143&zoom=12&basemap=Redmond&overlay=Parks_fill,Parks_outline,Trails&data=https://mappingsupport.com/p2/recreation/redmond_park_trail.txt
@@ -14,7 +15,7 @@ title=<b>Redmond<br />Parks and Trails</b>
 //		BASEMAPS
 //============================================================================
 
-basemap^name=USA_basemap^url=https://gis.redmond.gov/arcgis/rest/services/Common/BaseMap_UV_ESRI/MapServer/tile/{z}/{y}/{x}
+basemap^name=Open Street Map^url=https://gis.redmond.gov/arcgis/rest/services/Common/BaseMap_UV_ESRI/MapServer/tile/{z}/{y}/{x}
 
 //============================================================================
 //		OVERLAYS
