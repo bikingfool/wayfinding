@@ -14,7 +14,7 @@ title=<b>Redmond<br />Parks and Trails</b>
 //		BASEMAPS
 //============================================================================
 
-basemap^name=Redmond^url=https://gis.redmond.gov/arcgis/rest/services/Common/BaseMap_UV_ESRI/MapServer/tile/{z}/{y}/{x}
+basemap^name=USA_basemap^url=https://gis.redmond.gov/arcgis/rest/services/Common/BaseMap_UV_ESRI/MapServer/tile/{z}/{y}/{x}
 
 //============================================================================
 //		OVERLAYS
