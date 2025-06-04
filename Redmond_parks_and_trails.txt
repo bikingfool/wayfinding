@@ -33,5 +33,5 @@ overlay^name=Parks label^url=https://maps.redmond.gov/server/rest/services/Web/R
 // Trails (2)
 overlay^name=Trails^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=2^dynamicLayers=[{"ID":2,"source":{"type":"mapLayer","mapLayerId":2},"definitionExpression":"d_TrailStatus='EXD'","drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSLS","style":"esriSLSSolid","color":[150,150,150,255],"width":2}}}}]
 
-// Bike Routes (4)
+// BikeRoutes (4)
 overlay^name=BikeRoutes^url=https://maps.redmond.gov/server/rest/services/Web/RedmondDataForArcGISOnline/MapServer^layers=4^dynamicLayers=[{"ID":4,"source":{"type":"mapLayer","mapLayerId":4},"definitionExpression":"d_TrailStatus='EXD'","drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSLSSolid","style":"esriSLSSolid","color":[0,255,255,255],"width":3}}}}]
